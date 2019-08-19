@@ -2,5 +2,6 @@
 import setuptools
 
 setuptools.setup(
+    install_requires=['pbr'],
     setup_requires=['pbr'],
     pbr=True)
